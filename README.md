@@ -8,19 +8,10 @@ A Windows Phone Mobile Application was implemented in the 8.0 version (Silverlig
 
 By choosing the key "Emergency Button", the location of the device is being collected and it's sent back to the server through Web Service. The Web service returns the location of the drone, the distance in meters, and the time it needs to reach the user. The data is being analyzed and are being projected on the screen, alongside with the drone's live tracking.
 
-
-	
-
-Just for completeness.
-
-You can also add images with simple HTML tags:
-
 <p align="center">
   <img src="your_relative_path_here" width="350"/>
-  <img src="http://imgur.com/a/DsOTV" width="350"/>
+  <img src="https://raw.githubusercontent.com/DroneAid/DroneAid_master/Photorealistic1.jpg" width="350"/>
 </p>
-
-![alt tag](http://imgur.com/a/DsOTV)
 
 
 A web service was developed, using Visual Studio 2013. To be more specific, the .NET Web Api technology was used.
