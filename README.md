@@ -3,6 +3,7 @@
 #Getting Started
 
 The solution includes two projects for the use of the application. 
+
 A Windows Phone Mobile Application was implemented in the 8.0 version (Silverlight) which can communicate through web service with a central server which can communicate with an Arduino Board which has an xbee on it for a peer-to-peer communication with the drone.
 
 By choosing the key "Emergency Button", the location of the device is being collected and it's sent back to the server through Web Service. The Web service returns the location of the drone, the distance in meters, and the time it needs to reach the user. 
