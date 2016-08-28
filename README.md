@@ -1,4 +1,9 @@
-# DroneAid_master
+# Drone Aid
+
+<p align="center">
+  <img src="http://i.imgur.com/NcVJ8sZ.jpg" width="600"/>
+</p>
+
 
 #Getting Started
 
