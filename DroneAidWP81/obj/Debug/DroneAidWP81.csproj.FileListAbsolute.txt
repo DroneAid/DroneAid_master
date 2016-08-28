@@ -1,0 +1,78 @@
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81.pdb
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\AppManifest.xaml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81_Debug_AnyCPU.xap
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\App.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\Layouts\MainPage.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\Layouts\PEmergency.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\Layouts\PLogin.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.g.resources
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.Resources.AppResources.resources
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.csproj.GenerateResource.Cache
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.pdb
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\XapCacheFile.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.csprojResolveAssemblyReference.cache
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\RestSharp.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\RestSharp.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\MoreLayouts\PushPinDetails.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\obj\Debug\Layouts\PFacebookLogin.g.cs
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Facebook.Client.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Facebook.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Facebook.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Facebook.Client.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\giorgos\Documents\Visual Studio 2013\Projects\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81.pdb
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\AppManifest.xaml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\DroneAidWP81_Debug_AnyCPU.xap
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Facebook.Client.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Facebook.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\RestSharp.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Facebook.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Facebook.Client.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\Microsoft.Threading.Tasks.Extensions.Phone.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\Bin\Debug\RestSharp.xml
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.csprojResolveAssemblyReference.cache
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\App.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\Layouts\MainPage.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\Layouts\PEmergency.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\Layouts\PFacebookLogin.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\Layouts\PLogin.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\MoreLayouts\PushPinDetails.g.cs
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.g.resources
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.Resources.AppResources.resources
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.csproj.GenerateResource.Cache
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.dll
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\DroneAidWP81.pdb
+C:\Users\giorgos\Desktop\Jonny\DroneAid\DroneAidWP81\obj\Debug\XapCacheFile.xml

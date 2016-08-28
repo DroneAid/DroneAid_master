@@ -1,0 +1,116 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="DroneAidWP81.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maptoolkit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    shell:SystemTray.Opacity=".001"
+    shell:SystemTray.ForegroundColor="White">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Panorama Control-->
+        <phone:Panorama x:Name="Panorama" Grid.RowSpan="2">
+            <phone:Panorama.Background>
+                <ImageBrush ImageSource="/Assets/DroneAidTheme.jpeg" Opacity="0.1"/>
+            </phone:Panorama.Background>
+
+            <!--Panorama Item  include wallpaper and emergency button-->
+            <phone:PanoramaItem>
+                <Grid Margin="-12 -10 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="3.5*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+                    <!--Background Image Pivot 1-->
+                    <Image Source="/Assets/DroneAidBackgroundImage.png" Stretch="UniformToFill" Grid.RowSpan="6"/>
+                    
+                    <Image Source="/Assets/transparent.png" Grid.Row="1" HorizontalAlignment="Left" Margin="20 0"/>
+
+                    <Grid Name="EmergencyGrid" Margin="20 4 60 4"  Tap="btnTap_EmergencyButton"  Grid.Row="3" Height="60" VerticalAlignment="Top">
+                        <Border Background="#262262" CornerRadius="10" />
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DroneIconWhite.png" Margin="2"/>
+                            <TextBlock Text="Emergency Button" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="32" FontFamily="Segoe WP Light"/>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama Item  include spots from servers on map-->
+            <phone:PanoramaItem>
+                <Grid Margin="-10 0 0 0" >
+                    <StackPanel Grid.Row="0" Margin="12,0,0,0">
+                        <TextBlock Foreground="#FF232323" Text="Location" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
+                        <Grid Height="320" Margin="20 10 20 20">
+                            <maps:Map Grid.Row="0" x:Name="myMap"  ZoomLevel="15" Center="37.409012, -122.061543"
+                        CartographicMode="Aerial"
+                        ColorMode="Light" LandmarksEnabled="True"/>
+                        </Grid>
+                        <TextBlock Margin="30 5"  VerticalAlignment="Center" Foreground="#FF232323" Text="Find nearest spot." TextAlignment="Center" TextWrapping="Wrap" FontSize="22" FontFamily="Segoe WP SemiLight"/>
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+
+            <!--Panorama Item  include acount informations-->
+            <phone:PanoramaItem>
+                <Grid Margin="-10 0 0 0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="9.5*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Foreground="Black" Text="Account" Margin="9,-7,0,0"  Style="{StaticResource PhoneTextTitle2Style}"/>
+                    <ListBox Grid.Row="1" Width="400" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Visibility="Visible" Orientation="Horizontal" Margin="0 10 0 0">
+                                <Ellipse x:Name="ProfilePictureEllipse" Margin="10 0 0 0" Width="150" Height="150" StrokeThickness="2" Stroke="#FF232323">
+                                    <Ellipse.Fill>
+                                        <ImageBrush Stretch="Fill" ImageSource="/Assets/11822471_10206055325615075_6775003657096393017_n(1).jpg"/>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                                    <TextBlock Text="-" x:Name="Name" Foreground="#FF232323" Style="{StaticResource PhoneTextTitle2Style}"/>
+                                    <TextBlock Text="-" x:Name="LastName"  Foreground="#FF232323" Style="{StaticResource PhoneTextTitle2Style}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Margin="10 20 0 0" Text="Phone number" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="30 0 0 0" Text="-" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="10 10 0 0" Text="Address" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="30 0 0 0" Text="-" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="10 10 0 0" Text="Email address" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="30 0 0 0" Text="-" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="10 10 0 0" Text="Health Conditions" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                                <TextBlock Margin="30 0 0 0" Text="-" Style="{StaticResource PhoneTextTitle3Style}" VerticalAlignment="Center" Foreground="#FF232323"/>
+                            </StackPanel>
+                        </StackPanel>
+                        <Button x:Name="LogIn" Content="Log In" Visibility="Visible" BorderThickness="1" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="#FF232323" BorderBrush="Black" FontFamily="Segoe WP SemiLight" Click="btnClick_LogIn" />
+                    </ListBox>
+                </Grid>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+
+        <!--Top Border to identify windows phone icons-->
+        <Grid Background="#262262">
+            <Border Height="1" VerticalAlignment="Bottom" Background="#67AAF9"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

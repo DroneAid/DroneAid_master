@@ -1,0 +1,13 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="DroneAidWP81" EntryPointType="DroneAidWP81.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="DroneAidWP81" Source="DroneAidWP81.dll" />
+    <AssemblyPart x:Name="Facebook.Client" Source="Facebook.Client.dll" />
+    <AssemblyPart x:Name="Facebook" Source="Facebook.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Maps" Source="Microsoft.Phone.Controls.Maps.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Microsoft.Threading.Tasks.Extensions" Source="Microsoft.Threading.Tasks.Extensions.dll" />
+    <AssemblyPart x:Name="Microsoft.Threading.Tasks.Extensions.Phone" Source="Microsoft.Threading.Tasks.Extensions.Phone.dll" />
+    <AssemblyPart x:Name="RestSharp" Source="RestSharp.dll" />
+  </Deployment.Parts>
+</Deployment>
