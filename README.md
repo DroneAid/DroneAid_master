@@ -6,8 +6,10 @@ The solution includes two projects for the use of the application.
 
 A Windows Phone Mobile Application was implemented in the 8.0 version (Silverlight) which can communicate through web service with a central server which can communicate with an Arduino Board which has an xbee on it for a peer-to-peer communication with the drone.
 
-By choosing the key "Emergency Button", the location of the device is being collected and it's sent back to the server through Web Service. The Web service returns the location of the drone, the distance in meters, and the time it needs to reach the user. 
-The data is being analyzed and are being projected on the screen, alongside with the drone's live tracking.
+By choosing the key "Emergency Button", the location of the device is being collected and it's sent back to the server through Web Service. The Web service returns the location of the drone, the distance in meters, and the time it needs to reach the user. The data is being analyzed and are being projected on the screen, alongside with the drone's live tracking.
+
++![DroneAid](http://imgur.com/a/DsOTV)
+
 
 A web service was developed, using Visual Studio 2013. To be more specific, the .NET Web Api technology was used.
 The HTTP GET call public DroneAidTransferInformation SetGeolocation(string longtitude, string latitdude) accepts as parameters the latitude and longtitude of the user and then it  communicates serially with the smart board "Arduino" for the piloting of the drone.
